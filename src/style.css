@@ -5,6 +5,10 @@
     --text-bg: rgba(12, 128, 28, 0.2);
   }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
