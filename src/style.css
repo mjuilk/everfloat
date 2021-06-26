@@ -9,20 +9,24 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.landing {
+    background-size: cover;
+    padding-bottom: 96px;
+}
+
 #landing1 {
     background-image: url("../bin/content/main/landing1.jpg");
-    background-size: cover;
+
 }
 
 #landing2 {
     background-image: url("../bin/content/main/landing2.jpg");
-    background-size: cover;
     text-align: center;
-    padding-bottom: 64px;
+
 }
 
-#titlediv {
-    padding-top: 80px;
+.header {
+    padding-top: 40px;
     display: block;
     text-align: center;
 
@@ -39,7 +43,7 @@ h2 {
 #getstartdiv {
     text-align: center;
     margin: 0 auto;
-    padding: 24px;
+    padding: 16px;
     
 }
 
@@ -54,6 +58,7 @@ h2 {
 #getstart {
     display: block;
     margin: 48px auto;
+    max-width: 20%;
 }
 
 img {
@@ -67,7 +72,7 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 6rem;
 }
@@ -79,7 +84,7 @@ img {
 }
 
 .country-image {
-    height: calc(100% - 6.8rem);
+    height: calc(100% - 8rem);
     width: 100%;
     object-fit: cover;
 }
