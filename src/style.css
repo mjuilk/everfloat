@@ -58,7 +58,7 @@ h2 {
 #getstartdiv>p {
     display: inline-flex;
     padding: 8px;
-    width: 75%;
+    width: 60%;
     font-size: 24px;
     background-color: var(--text-bg);
 }
