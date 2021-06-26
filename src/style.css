@@ -89,3 +89,11 @@ img {
     padding: 2rem 0.5rem;
     color: white;
 }
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    background: var(--text-bg);
+  }
