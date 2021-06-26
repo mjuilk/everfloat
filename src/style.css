@@ -2,7 +2,8 @@
 
 /* Custom properties/variables  */
 :root {
-    --text-bg: rgba(12, 128, 28, 0.2);
+    --text-green-bg: rgba(12, 128, 28, 0.33);
+    --text-sand-bg: rgba(210, 185, 92, 0.33);
   }
 
 html {
@@ -14,7 +15,12 @@ body {
 }
 
 .nav-link {
+    padding: 4px 36px;
     color:white;
+}
+
+.nav-link:hover {
+    color:black;
 }
 
 .landing {
@@ -33,6 +39,18 @@ body {
 
 }
 
+#aus-1 {
+    background-image: url("../bin/content/australia/aus-bg-1.jpg");
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    width: 100%;
+    height: 100vh;
+    padding: 60px;
+}
+
 .header {
     padding-top: 40px;
     display: block;
@@ -48,6 +66,31 @@ h2 {
     font-size: 120px;
 }
 
+#country-text h2 {
+    background-color: var(--text-sand-bg);
+}
+
+#country-text h4 {
+    font-size:64px;
+    background-color: var(--text-sand-bg);
+    text-decoration:underline overline;
+  }
+
+#media-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    font-size:32px;
+  }
+
+#media-container div {
+    margin:12px;
+    text-align:center;
+    border-style:inset;
+    border-radius: 12px;
+  }
+  
+
 #getstartdiv {
     text-align: center;
     margin: 0 auto;
@@ -55,12 +98,12 @@ h2 {
     
 }
 
-#getstartdiv>p {
+#getstartdiv > p {
     display: inline-flex;
     padding: 8px;
     width: 60%;
     font-size: 24px;
-    background-color: var(--text-bg);
+    background-color: var(--text-green-bg);
 }
 
 #getstart {
@@ -73,7 +116,7 @@ img {
     display: block;
     width: 100%;
   }
-
+/* START AVAILABLE COUNTRIES GRID */
 /* "Automagic" image grid using no media queries */
 .countries-grid {
     display: grid;
@@ -86,7 +129,7 @@ img {
 }
 
 .country {
-    background: var(--text-bg);
+    background: var(--text-green-bg);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
@@ -102,11 +145,14 @@ img {
     padding: 2rem 0.5rem;
     color: white;
 }
+/* END AVAILABLE COUNTRIES GRID */
 
 footer {
     font-weight: 300;
     display: flex;
     justify-content: space-evenly;
     padding: 8px;
-    background: var(--text-bg);
+    background: var(--text-green-bg);
   }
+
+  
