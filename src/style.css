@@ -13,6 +13,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-link {
+    color:white;
+}
+
 .landing {
     background-size: cover;
     padding-bottom: 96px;
