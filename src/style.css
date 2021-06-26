@@ -62,7 +62,7 @@ img {
   }
 
 /* "Automagic" image grid using no media queries */
-.projects-grid {
+.countries-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
@@ -72,19 +72,19 @@ img {
     margin-bottom: 6rem;
 }
 
-.project {
+.country {
     background: var(--text-bg);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 
-.project-image {
+.country-image {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
 }
 
-.project-title {
+.country-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
     color: white;
